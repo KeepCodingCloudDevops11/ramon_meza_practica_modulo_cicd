@@ -65,11 +65,11 @@ Proyecto funcional y desplegable. Ideal como base para aprender sobre:
 - Código fuente: [GitHub - flask-redis-counter-Practica-RamonMeza](https://github.com/RAMON1743/flask-redis-counter-Practica-RamonMeza)
 - Imágenes Docker: [Docker Hub - ramon1743/flask-redis-counter-practica-ramonmeza](https://hub.docker.com/repository/docker/ramon1743/flask-redis-counter-practica-ramonmeza/general)
   
- ![dockerhub](images/dockerhub.png)
+ ![dockerhub](imagen/dockerhub.png)
  
 - Pipelines CircleCI: [CircleCI Pipelines](https://app.circleci.com/pipelines/github/RAMON1743)
   
- ![circleci](circleci.png)
+ ![circleci](imagen/circleci.png)
 
  
 
@@ -107,7 +107,7 @@ Pipeline para desplegar en Kubernetes:
 - Clonado del repo de manifiestos.
 - Ejecución de `argocd app sync` y monitoreo de salud. 
 
-![pipelines](pipelines.png)
+![pipelines](imagen/pipelines.png)
 
 ---
 
@@ -115,11 +115,11 @@ Pipeline para desplegar en Kubernetes:
 
 - **Análisis de Código**: Integración con **SonarQube** para análisis estático.
   
-    ![SonarQube](SonarQube.png)
+    ![SonarQube](imagen/SonarQube.png)
   
 - **Vulnerabilidades**: Escaneo automático con **Snyk** desde CircleCI.
   
-   ![Snyk](Snyk.png)
+   ![Snyk](imagen/Snyk.png)
 ---
 
 ## Despliegue en Minikube con ArgoCD
@@ -153,7 +153,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 kubectl get pods -n argocd
 ```
 
-![pods_argocd](pods_argocd.png.png)
+![pods_argocd](imagen/pods_argocd.png)
 
 
 5. **Exponer la interfaz web de ArgoCD**
@@ -179,7 +179,7 @@ Visita: [https://localhost:8080](https://localhost:8080)
 - **Árbol de recursos**: Incluye `flask-redis-config`, `flask-redis-secret`, pods de la app.
 - **Acciones**: Sincronización, revisión de estado, rollback, entre otras.
 
-![Panel de ArgoCD](ArgoCD.png)
+![Panel de ArgoCD](imagen/ArgoCD.png)
 
 ---
 
@@ -187,11 +187,11 @@ Visita: [https://localhost:8080](https://localhost:8080)
 
 La aplicación `flask-redis-app` se despliega en Kubernetes y está enlazada correctamente al servicio de Redis, mostrando el contador actualizado en cada visita. 
 
-![App-argoCD](App-argoCD.png)
+![App-argoCD](imagen/App-argoCD.png)
 
 Puedes acceder a la app desde el navegador usando la URL generada por el port-forward y mediante de Kind de flask-redis-app, enlazaría a la aplicación de **Flask-Redis-Counter**. 
 
-![Flask-Redis-Counter](Flask-Redis-Counter.png)
+![Flask-Redis-Counter](imagen/Flask-Redis-Counter.png)
 
   
 
