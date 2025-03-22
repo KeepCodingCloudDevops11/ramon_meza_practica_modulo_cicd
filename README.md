@@ -63,6 +63,7 @@ Proyecto funcional y desplegable. Ideal como base para aprender sobre:
 ## Repositorios y Recursos
 
 - Código fuente: [GitHub - flask-redis-counter-Practica-RamonMeza](https://github.com/RAMON1743/flask-redis-counter-Practica-RamonMeza)
+- Código fuente del manifiesto: [GitHub - flask-redis-counter-Practica-RamonMeza](https://github.com/RAMON1743/flask-redis-counter-Practica-RamonMeza/tree/main/k8s)
 - Imágenes Docker: [Docker Hub - ramon1743/flask-redis-counter-practica-ramonmeza](https://hub.docker.com/repository/docker/ramon1743/flask-redis-counter-practica-ramonmeza/general)
   
  ![dockerhub](imagen/dockerhub.png)
