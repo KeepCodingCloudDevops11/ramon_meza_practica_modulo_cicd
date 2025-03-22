@@ -65,7 +65,7 @@ Proyecto funcional y desplegable. Ideal como base para aprender sobre:
 - Código fuente: [GitHub - flask-redis-counter-Practica-RamonMeza](https://github.com/RAMON1743/flask-redis-counter-Practica-RamonMeza)
 - Imágenes Docker: [Docker Hub - ramon1743/flask-redis-counter-practica-ramonmeza](https://hub.docker.com/repository/docker/ramon1743/flask-redis-counter-practica-ramonmeza/general)
   
- ![dockerhub](dockerhub.png)
+ ![dockerhub](images/dockerhub.png)
  
 - Pipelines CircleCI: [CircleCI Pipelines](https://app.circleci.com/pipelines/github/RAMON1743)
   
