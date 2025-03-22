@@ -140,7 +140,7 @@ minikube start
 
 2. **Verificar el estado del clúster**
 ```bash
-kubectl get nodes
+minikube status
 ```
 
 3. **Instalar ArgoCD**
